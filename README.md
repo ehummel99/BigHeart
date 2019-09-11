@@ -117,7 +117,7 @@ Social media platform for sharing acts of kindness & promoting communities that 
    * Can switch to other screens through tabs/buttons (listed above)
 
 ## Wireframes 
-<img src="" width=600>
+<img src="https://github.com/spiralcloudah/BigHeart/raw/master/BigHeart.gif" width=600>
 
 
 ## Schema 
