@@ -49,35 +49,53 @@ Social media platform for sharing acts of kindness & promoting communities that 
 ### 1. User Stories 
 
 * User can login/register 
-* User can post their good deeds done, request help to perform good deeds, post about what others helped them
-    * optional: make post, request, report distinguishable  
-* User can see feed of user good deeds 
-    * optional: add friends, and have feed exclusive to friends (private, public)
-    * user map that drops pins at site of posted good deeds
-    * optional location tag 
-* User can access profile page 
+* User can post their good deeds done, request help to perform good deeds in the form of events, post about what others helped them
+* User can see feed of user good deeds in "Home" tab
+    * mix of events and posts on main timeline
+    * Posts:
+        * location
+        * date posted
+        * description
+        * like button
+        * (optional) image
+    * Events:
+        * location
+        * title
+        * date posted
+        * description
+        * like button
+        * bookmark button
+        * (optional) image
+* User can access "Profile" tab 
+    * swap between viewing own posts and viewing bookmarked posts
+* User can see just events in "Events" tab
+    * automatically filtered to events within 10 miles of the user
+    * can apply own filters to events
+* User can see their "Circle of Influence" in the "Maps" tab
+    * displays pins showing location of all events posted
+* User can log out
 
 
 
 
 ### 2. Screen Archetypes
-Required:
 * Login/Register
    * User can register an account
    * User can log into an existing account
 * Profile
    * User can see their past deeds
+   * User can see their bookmarked events
 * Timeline
     * User can see deeds from other users
 * Create Post 
     * User can write a caption about their deed
-    * (Optional) User can upload photos, use camera to snap photos
-    * (Optional) User can drop a vc pin/location tag 
-
-Optional:
+    * User can upload photos, use camera to snap photos
+    * User can drop a pin/location tag 
 * Good Deed Tracker (Using maps)
     * User map drops pins at site of posted good deeds 
     * User can see past pins
+* Events Tab
+    * User can see all events posted and apply filters
 
 
 ### 3. Navigation
@@ -86,9 +104,9 @@ Optional:
 
 * "Profile"
 * "Timeline"
-* "Create Post" - Floating Action Button
-* (Optional) "Map"
-* (Optional) "Search Users"
+* "Map"
+* "Search Events"
+* "Create Post" - Taskbar button
 
 **Flow Navigation** (Screen to Screen)
 
@@ -96,7 +114,7 @@ Optional:
    * Can register for account - takes to timeline
    * Can login to account - takes to timeline
 * Timeline Screen
-   * Can switch to other screens through tabs (listed above)
+   * Can switch to other screens through tabs/buttons (listed above)
 
 ## Wireframes 
 <img src="" width=600>
@@ -122,10 +140,16 @@ Optional:
 | Column | Type |
 | ------ | --------|
 | User | Pointer |
-| Image | File |
+| Image | File | *
+| Title | String | *
 | Description | String |
 | Likes | Array |
 | Location | GeoPoint |
+| Date | String | *
+| Time | String | *
+| IsEvent | Boolean |
+
+*can be null
 
 
 ### Networking
