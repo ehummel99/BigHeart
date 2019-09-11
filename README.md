@@ -1,4 +1,5 @@
 # Big<3
+#### Founders: Elana Hummel, Ariana Harvey, Gene Nartey
 
 Big<3 is a social media app that provides users to interact with their community in a positive way through sharing good deeds with each other and promoting events where help is needed.
 
