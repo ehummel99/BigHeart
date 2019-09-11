@@ -1,5 +1,5 @@
 # Big<3
-#### Founders: Elana Hummel, Ariana Harvey, Gene Nartey
+#### Founders: [Elana Hummel](https://github.com/ehummel99), [Ariana Harvey](https://github.com/spiralcloudah), [Gene Nartey](https://github.com/genenartey3)
 
 Big<3 is a social media app that provides users to interact with their community in a positive way through sharing good deeds with each other and promoting events where help is needed.
 
