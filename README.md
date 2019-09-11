@@ -140,13 +140,13 @@ Social media platform for sharing acts of kindness & promoting communities that 
 | Column | Type |
 | ------ | --------|
 | User | Pointer |
-| Image | File | *
-| Title | String | *
+| Image* | File | 
+| Title* | String | 
 | Description | String |
 | Likes | Array |
 | Location | GeoPoint |
-| Date | String | *
-| Time | String | *
+| Date* | String | 
+| Time* | String | 
 | IsEvent | Boolean |
 
 *can be null
